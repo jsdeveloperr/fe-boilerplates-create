@@ -1,6 +1,6 @@
 {
   "name": "fe-boilerplates-create",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create your boilerplates library and publish it in no time",
   "main": "src/index.js",
   "scripts": {
@@ -17,12 +17,14 @@
     "url": "git+https://github.com/jsdeveloperr/fe-boilerplates-create.git"
   },
   "keywords": [
-    "cli",
     "fe-boilerplates-create",
+    "cli",
     "react",
     "react-ts",
     "vue",
-    "vue-ts"
+    "vue-ts",
+    "svelte" ,
+    "svelte-ts"
   ],
   "author": "Abdulnasır OLCAN",
   "license": "MIT",

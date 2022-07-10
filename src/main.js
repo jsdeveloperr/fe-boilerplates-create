@@ -61,7 +61,7 @@ export async function createProject(options) {
   const fullPathName = new URL(import.meta.url).pathname;
   const templateDir = path.resolve(
     fullPathName.substr(fullPathName.indexOf("/")),
-    "../templates",
+    "../../templates",
     options.template.toLowerCase()
   );
   options.templateDirectory = templateDir;
@@ -112,21 +112,21 @@ export async function createProject(options) {
   const successMessage = "🚀 Your project is ready";
   if (options.packageManager === "npm") {
     console.log(
-      boxen("`npm run dev' to start building your component", {
+      boxen("`npm run dev' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
     );
   }else if (options.packageManager === "pnpm") {
     console.log(
-      boxen("`pnpm dev' to start building your component", {
+      boxen("`pnpm dev' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })
     );
   }else {
     console.log(
-      boxen("`yarn dev' to start building your component", {
+      boxen("`yarn dev' to start building your boilerplates", {
         padding: 1,
         title: successMessage
       })

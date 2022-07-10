@@ -37,7 +37,7 @@ async function promptForMissingOptions(options) {
     type: "list",
     name: "packageManager",
     message: "Select a package manager",
-    choices: ["yarn", "npm", "pnpm"],
+    choices: ["yarn", "npm"],
     default: defaultPackage
   });
 

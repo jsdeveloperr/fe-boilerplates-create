@@ -54,7 +54,7 @@ export async function createProject(options) {
   options = {
     ...options,
     targetDirectory: options.targetDirectory || process.cwd(),
-    email: "",
+    email: "https://github.com/jsdeveloperr",
     name: "Abdulnasir OLCAN"
   };
 
@@ -117,7 +117,14 @@ export async function createProject(options) {
         title: successMessage
       })
     );
-  } else {
+  }else if (options.packageManager === "pnpm") {
+    console.log(
+      boxen("`pnpm dev' to start building your component", {
+        padding: 1,
+        title: successMessage
+      })
+    );
+  }else {
     console.log(
       boxen("`yarn dev' to start building your component", {
         padding: 1,

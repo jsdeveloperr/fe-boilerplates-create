@@ -24,7 +24,8 @@
     "vue",
     "vue-ts",
     "svelte" ,
-    "svelte-ts"
+    "svelte-ts",
+    "preact"
   ],
   "author": "Abdulnasır OLCAN",
   "license": "MIT",

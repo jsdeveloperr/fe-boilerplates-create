@@ -19,7 +19,7 @@ async function promptForMissingOptions(options) {
       type: "list",
       name: "template",
       message: "Create a project frontend boilerplate",
-      choices: ["React", "React-ts", "Vue", "Vue-ts", "Svelte", "Svelte-ts"],
+      choices: ["React", "React-ts", "Vue", "Vue-ts", "Svelte", "Svelte-ts", "Preact"],
       default: defaultTemplate
     });
   }

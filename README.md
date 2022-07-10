@@ -5,7 +5,7 @@
 ## setup
 
 <p align="center">
-  <img width="600" src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/setup.gif">
+  <img width="500" src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/setup.gif">
 </p>
 
 ## Features 🚀

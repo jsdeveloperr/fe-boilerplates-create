@@ -1,6 +1,6 @@
 # 📦 fe-boilerplates-create
 
-> CLI for creating reusable, modern React, Vue libraries using **Webpack**
+> CLI for creating reusable, modern React, Vue and Svelte libraries using **Webpack**
 
 ## Features 🚀
 

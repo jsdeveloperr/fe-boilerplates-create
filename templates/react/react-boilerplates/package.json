@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "react-boilerplates",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,8 +19,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "react",
-      "react/jest"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {

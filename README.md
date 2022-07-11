@@ -1,6 +1,6 @@
 # 📦 fe-boilerplates-create
 
-> CLI for creating reusable, modern React, Vue and Svelte libraries using **Webpack**
+> CLI for creating reusable, modern React, Preact, Vue, Svelte and Nextjs libraries
 
 ## setup
 
@@ -8,7 +8,7 @@
   <img width="500" src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/setup.gif">
 </p>
 
-## Features 🚀
+## 🚀 Features 
 
 - A modern and easy to use CLI
 - Rapid development of the component

@@ -1,6 +1,6 @@
 {
   "name": "fe-boilerplates-create",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Create your boilerplates library and publish it in no time",
   "main": "src/index.js",
   "scripts": {
@@ -25,7 +25,9 @@
     "vue-ts",
     "svelte" ,
     "svelte-ts",
-    "preact"
+    "preact",
+    "nextjs",
+    "nextjs-ts"
   ],
   "author": "Abdulnasır OLCAN",
   "license": "MIT",

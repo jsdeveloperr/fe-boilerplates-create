@@ -59,3 +59,7 @@ yarn dev
 
 You will have a example component running in the browser. You can start developing your component here by adding some Javscript and CSS.
 
+
+<p align="center" dir="auto">
+    <img src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/user.png" width="200" alt="frontend boilerplates" style="max-width: 100%;"> 
+</p>

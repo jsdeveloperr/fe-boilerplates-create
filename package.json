@@ -1,6 +1,6 @@
 {
   "name": "fe-boilerplates-create",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create your boilerplates library and publish it in no time",
   "main": "src/index.js",
   "scripts": {

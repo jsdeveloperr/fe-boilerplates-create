@@ -79,9 +79,9 @@ function parseArgumentsIntoOptions(rawArgs) {
     skipPrompts: args["--yes"] || false,
     git: args["--git"] || false,
     template: args._[0],
+    projectName: argv._[0],
     runInstall: args["--install"] || false,
     packageManager: "",
-    projectName: argv._[0]
   };
 }
 

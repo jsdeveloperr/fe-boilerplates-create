@@ -15,14 +15,12 @@ async function promptForMissingOptions(options) {
   }
 
   const questions = [];
-  if (!options.projectName) {
-    questions.push({
-      type: "input",
-      name: "projectName",
-      message: "What's your project name:",
-      default: defaultTargetDir
-    });
-  }
+  questions.push({
+    type: "input",
+    name: "projectName",
+    message: "What's your project name:",
+    default: defaultTargetDir
+  });
   
   if (!options.template) {
     questions.push({
@@ -79,9 +77,9 @@ function parseArgumentsIntoOptions(rawArgs) {
     skipPrompts: args["--yes"] || false,
     git: args["--git"] || false,
     template: args._[0],
-    projectName: argv._[0],
     runInstall: args["--install"] || false,
     packageManager: "",
+    projectName: ""
   };
 }
 

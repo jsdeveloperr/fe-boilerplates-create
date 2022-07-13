@@ -5,7 +5,6 @@ import { createProject } from "./main";
 async function promptForMissingOptions(options) {
   const defaultTemplate = "React";
   const defaultPackage = "yarn";
-  const defaultTargetDir = 'project-name'
 
   if (options.skipPrompts) {
     return {
@@ -15,13 +14,6 @@ async function promptForMissingOptions(options) {
   }
 
   const questions = [];
-  questions.push({
-    type: "input",
-    name: "projectName",
-    message: "What's your project name:",
-    default: defaultTargetDir
-  });
-  
   if (!options.template) {
     questions.push({
       type: "list",
@@ -54,8 +46,7 @@ async function promptForMissingOptions(options) {
     ...options,
     template: options.template || answers.template,
     git: options.git || answers.git,
-    packageManager: options.packageManager || answers.packageManager,
-    projectName: options.projectName || answers.projectName
+    packageManager: options.packageManager || answers.packageManager
   };
 }
 
@@ -78,8 +69,7 @@ function parseArgumentsIntoOptions(rawArgs) {
     git: args["--git"] || false,
     template: args._[0],
     runInstall: args["--install"] || false,
-    packageManager: "",
-    projectName: ""
+    packageManager: ""
   };
 }
 

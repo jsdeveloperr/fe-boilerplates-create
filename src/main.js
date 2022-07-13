@@ -40,13 +40,6 @@ async function createLicense(options) {
   return writeFile(targetPath, licenseContent, "utf8");
 }
 
-async function createPath(options) {
-  const file = path.join(options.targetDirectory, options.name);
-  return writeFile({
-    file: file
-  });
-}
-
 async function initGit(options) {
   const result = await execa("git", ["init"], {
     cwd: options.targetDirectory
@@ -82,10 +75,6 @@ export async function createProject(options) {
 
   const tasks = new Listr(
     [
-      {
-        title: "Creating project name",
-        task: () => createPath(options)
-      },
       {
         title: "Creating project files",
         task: () => copyTemplateFiles(options)

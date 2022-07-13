@@ -15,12 +15,14 @@ async function promptForMissingOptions(options) {
   }
 
   const questions = [];
-  questions.push({
-    type: "input",
-    name: "projectName",
-    message: "What's your project name:",
-    default: defaultTargetDir
-  });
+  if (!options.projectName) {
+    questions.push({
+      type: "input",
+      name: "projectName",
+      message: "What's your project name:",
+      default: defaultTargetDir
+    });
+  }
   
   if (!options.template) {
     questions.push({

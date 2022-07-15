@@ -2,6 +2,7 @@
 
 > CLI for creating reusable, modern React, Preact, Vue, Svelte and Nextjs libraries
 
+
 <div align="center">
 
 [![npm](https://img.shields.io/npm/v/fe-boilerplates-create?style=flat-square)](https://www.npmjs.com/package/fe-boilerplates-create)
@@ -10,7 +11,7 @@
 
 </div>
 
-## :package: setup
+## ✅ setup
 
 <p align="center">
   <img width="500" src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/setup.gif">

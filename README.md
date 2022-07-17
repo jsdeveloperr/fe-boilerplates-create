@@ -11,7 +11,7 @@
 
 </div>
 
-## :rocket: setup
+## ⚡ Setup
 
 <p align="center">
   <img width="500" src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/setup.gif">
@@ -34,7 +34,7 @@
 - It is using latest version of webpack. Currently, other CLI's are using rollup.
 - Development is fast here because we are not directly consuming the component. First we are building it peacefully, and once it is ready then we do `npm pack` to test in our local environment
 
-## Install globally
+## 📦 Install globally
 
 ```bash
 npm install -g fe-boilerplates-create
@@ -46,7 +46,7 @@ or
 npx fe-boilerplates-create
 ```
 
-## Development
+## :sparkles: Development
 
 ```bash
 fe-boilerplates-create

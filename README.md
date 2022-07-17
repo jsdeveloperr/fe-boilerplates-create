@@ -1,4 +1,4 @@
-# 📦 fe-boilerplates-create
+# 📦 Frontend Boilerplates Create
 
 > CLI for creating reusable, modern React, Preact, Vue, Svelte and Nextjs libraries
 
@@ -11,7 +11,7 @@
 
 </div>
 
-## ✅ setup
+## :rocket: setup
 
 <p align="center">
   <img width="500" src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/setup.gif">

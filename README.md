@@ -72,3 +72,9 @@ You will have a example component running in the browser. You can start developi
 <p align="center" dir="auto">
     <img src="https://github.com/jsdeveloperr/fe-boilerplates-create/blob/master/user.png" width="200" alt="frontend boilerplates" style="max-width: 100%;"> 
 </p>
+
+## 📄 License
+
+<div calign="center">
+    🍁 MIT Licensed | Copyright © 2022-present Abdulnasır Olcan and @FrontendBoilerplatesCreate contributors
+</div>
